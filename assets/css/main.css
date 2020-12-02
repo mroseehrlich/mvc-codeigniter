@@ -1,0 +1,106 @@
+/*
+Name: Mia Ehrlich
+Final Project
+Purpose: This is the main.css file for index and contact and about pages for a mobile first responsive site
+ */
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    background: linear-gradient(to bottom right, #86646C, #D7C3A5);
+}
+
+nav {
+    background-color: #86646C;
+}
+
+main {
+    min-height: 100%;
+    width: 90%;
+    border-radius: 20px;
+    margin: 5em auto 2em;
+    padding: 1em 0 3em;
+    background: linear-gradient(to top right, rgba(251, 199, 161, 0.9), rgba(255, 241, 182, 0.9)),
+    url(../images/zombie.png);
+    box-shadow: 1px 1px 30px #86646C;
+}
+
+form {
+    width: 100%;
+}
+.StripeElement {
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+.prev {
+    float: left;
+}
+
+.next {
+    float: right;
+}
+
+article {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+article p:first-of-type {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+article p {
+    font-size: 14px;
+    line-height: 2;
+    color: #3a3a3a;
+    margin-top: 30px;
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+span {
+    background-color: #ccc;
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #D7C3A5;
+}
+
+
+@media only screen and (min-width: 600px) {
+    form {
+        width: 60%;
+    }
+
+    section {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
